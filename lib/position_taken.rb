@@ -1,5 +1,6 @@
 require "pry"
 def position_taken?(board, index)
+  binding.pry
   if board[index] == " "
    false
   end
